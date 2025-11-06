@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         ScavengerMineHeadless-ItsDave_ADA — 10-Minute Heartbeat
-// @namespace    ItsDave_ADA
+// @name         ScavengerMineHeadless-sp213 — 10-Minute Heartbeat
+// @namespace    sp213
 // @version      2.4.0
 // @description  Auto-starts and maintains ScavengerMine sessions for the Midnight Scavenger Hunt mining NIGHT.
 // @match        https://sm.midnight.gd/*
@@ -46,7 +46,7 @@ Intended solely to assist with maintaining uptime during the Midnight Scavenger 
 */
 
 (function () {
-    const TAG = "[ScavengerMineHeadless-ItsDave_ADA]";
+    const TAG = "[ScavengerMineHeadless-sp213]";
 
     const HEARTBEAT_MS      = 10 * 60_000; // every 10 min
     const BOOT_GRACE_MS     = 5_000;       // wait for UI
